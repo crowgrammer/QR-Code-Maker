@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <title>QR Code Genrator</title>
+  </head>
+  <body>
+    <main class="has-text-light block container mt-6 pt-6">
+      <div id="app is-centered mt-1">
+        <h1 class="is-size-1 has-text-centered">⚡ QR Code Mass Genrate ⚡</h1>
+        <div id="Buttons" class="mt-6 is-centered has-text-centered">
+          <input type="file" id="upload-file" class="button is-info mt-3 is-centered" accept=".xls, .xlsx">
+          </input>
+          <br />
+          <button id="upload-btn" class="button has-text-black is-primary mt-3 is-centered ">
+            Genrate Codes ✨
+          </button>
+        </div>
+      </div>
+      <div id="qrs">
+        
+      </div>
+    </main>
+    <script defer type="module" src="/main.js"></script>
+  </body>
+</html>
