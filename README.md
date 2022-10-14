@@ -10,8 +10,8 @@ build with vite using vanilla java script.
 clone the repo and run:
 
 ```bash
-yarn
-yarn run dev
+$ yarn
+$ yarn run dev
 
 ```
 
@@ -20,7 +20,7 @@ To install all the dependencies and ren a dev server of the project.
 run
 
 ```bash
-vite build
+$ vite build
 ```
 
 to build the project.
