@@ -8,13 +8,14 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
     />
+    <script src="https://kit.fontawesome.com/7885c194ef.js" crossorigin="anonymous"></script>
     <title>QR Code Genrator</title>
   </head>
   <body>
     <main class="has-text-light block container">
       <div class="wrapper">
         <div id="app is-centered has-text-centered mt-1">
-          <h1 class="is-size-1 has-text-centered has-text-weight-bold">⚡ QR Code Batch Genrator ⚡</h1>
+          <h1 class="is-size-1 has-text-centered has-text-weight-bold pt-4">⚡ QR Code Batch Genrator ⚡</h1>
           <div id="Buttons" class=" mt-6 is-centered has-text-centered">
             <a href="./howto.html" class="howto has-text-white has-text-weight-bold is-underlined">How to use? 🚀</a> <br />
             <input type="file" id="upload-file" class="button is-info mt-3 is-centered" accept=" .xlsx">
@@ -25,8 +26,11 @@
             </button>
           </div>
         </div>
-        
+        <div class="has-text-centered has-text-white mt-6">
+          <a class="has-text-white is-size-4" href="https://github.com/crowgrammer/"><i class="fa-brands fa-github"></i> Crowgrammer</a>
+        </div>
       </div>
+
     </main>
     <script defer type="module" src="/main.js"></script>
   </body>
