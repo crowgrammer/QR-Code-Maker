@@ -9,10 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "path": "^0.12.7",
     "vite": "^3.1.0"
   },
   "dependencies": {
+    "path": "^0.12.7",
     "file-saver": "^2.0.5",
     "jszip": "^3.10.1",
     "jszip-utils": "^0.1.0",
