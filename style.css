@@ -113,3 +113,13 @@ main {
   box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
   padding: 20px 25px 0;
 }
+
+.wrapper2 {
+  background-color: #fff;
+  height: auto;
+  max-width: 1000px;
+  background: rgb(59, 57, 57);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+  padding: 20px 25px 0;
+}
